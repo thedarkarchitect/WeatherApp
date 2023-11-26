@@ -3,5 +3,5 @@ package com.example.weatherapp.domain.location
 import android.location.Location
 
 interface LocationTracker {
-    suspend fun getCurrentLoaction(): Location?
+    suspend fun getCurrentLocation(): Location?
 }

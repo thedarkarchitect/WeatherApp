@@ -2,7 +2,7 @@ package com.example.weatherapp.domain.weather
 
 import java.time.LocalDateTime
 
-data class WeatherData(
+data class Hourly(
     val time: LocalDateTime,
     val temperatureCelsius: Double,
     val pressure: Double,

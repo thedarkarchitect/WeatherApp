@@ -14,7 +14,8 @@ class WeatherRepositoryImpl @Inject constructor(
         return try{
             Resource.Success(
                 data = api.getWeatherData(
-                    lat, long
+                    lat = lat,
+                    long = long
                 ).toWeatherInfo()
             )
         } catch (e: Exception) {
